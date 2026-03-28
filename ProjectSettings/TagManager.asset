@@ -1,0 +1,64 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - PartCube
+  - Tool
+  - UkasR
+  - Head
+  - HandL
+  - HandR
+  - ToolRotater
+  - UkasL
+  - Teski
+  - Kreeska
+  - Shpindel
+  - BackBabka
+  - VnutrTool
+  - VnutrObj
+  - Detail
+  - CylPART
+  - UnvHole
+  - Bullet
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - PP
+  - FrezTable
+  - Player
+  - PlayerWall
+  - Throw
+  - Cyl
+  - UICyl
+  - Cub
+  - CubUI
+  - reflection
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: New Layer
+    uniqueID: 3687701729
+    locked: 0

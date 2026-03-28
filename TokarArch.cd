@@ -1,0 +1,307 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="FullSignature">
+  <Class Name="BindMilling">
+    <Position X="14.5" Y="6" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAgAAAhEAAEAAAAIAAAAAAIAAAAAAEgAJAAA=</HashCode>
+      <FileName>Assets\Scripts\Milling\BindMilling.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="handL" />
+      <Field Name="handR" />
+      <Field Name="generation" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="CamsCubeController">
+    <Position X="42" Y="0.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>ACAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Milling\CamsCubeController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Controller">
+    <Position X="31" Y="3.25" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAUAIABwCCAAAABEALAAAAAAEAEAAQAIQAAEAAAAAkA=</HashCode>
+      <FileName>Assets\Scripts\Milling\Controller.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="circleXlin" />
+      <Field Name="circleYlin" />
+      <Field Name="circleZlin" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="ControllerCube">
+    <Position X="31.25" Y="24.75" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>ACYBAAAAQABgAABBAQQAQIIAAAMACCgCCIAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Milling\ControllerCube.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="meshCube" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="ControllerHelp">
+    <Position X="37.75" Y="5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAAAgAAAAAAAAAAAgCBAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Milling\ControllerHelp.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="training" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="ControllerSpeed">
+    <Position X="42" Y="6" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAgAAAAAAAAACAAAAAAAAAAAAAAAAAAAABAA=</HashCode>
+      <FileName>Assets\Scripts\Milling\ControllerSpeed.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ControllerTakerMilling">
+    <Position X="31.25" Y="20.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEBAAAAQ=</HashCode>
+      <FileName>Assets\Scripts\Milling\ControllerTakerMilling.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="milling" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="ControllerToolMilling">
+    <Position X="22.25" Y="4.5" Width="3.25" />
+    <TypeIdentifier>
+      <HashCode>IBQIBBIAAgAAgpAAAAAAQACYAAAACYAAAAAAAgAIAAA=</HashCode>
+      <FileName>Assets\Scripts\Milling\ControllerToolMilling.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="handR" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="CubeDestroyer">
+    <Position X="47.25" Y="0.75" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAACAAAAAAAAAAAAIAAAAAAIAAQAAAIAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Milling\CubeDestroyer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CubeOptimize">
+    <Position X="50.25" Y="0.75" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAUBAAAARAAAAABAAAAAAAAAAAAAAAAAQAAAAAADAAA=</HashCode>
+      <FileName>Assets\Scripts\Milling\CubeOptimize.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CylDestr">
+    <Position X="44.25" Y="5.25" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Milling\CylDestr.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EffectTool">
+    <Position X="44.25" Y="2.5" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>CAAAAAAAAgAAABAAAAQAAAAAAAAAAAAEAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Milling\EffectTool.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Generation">
+    <Position X="11" Y="4.5" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>ACYBAAAAQABgAABBAAQAQAMgEAMASCgACIAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Milling\Generation.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GeneratorCube">
+    <Position X="47.5" Y="3.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAACAAAAAAAAAAAAAgAAAAgAAAAABgAQAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Milling\GeneratorCube.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HelpCircle">
+    <Position X="50" Y="4.25" Width="3" />
+    <TypeIdentifier>
+      <HashCode>AAAEAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAABAAAA=</HashCode>
+      <FileName>Assets\Scripts\Milling\HelpCircle.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Jupka">
+    <Position X="17.75" Y="17.25" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AQQkAAACSgIgAIAEACAAAAAIBAAAAAgACAGAAAAEAAI=</HashCode>
+      <FileName>Assets\Scripts\Milling\Jupka.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Jupka_back">
+    <Position X="14" Y="22" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAABAAAAAIAAAAAAIAAIAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Milling\Jupka_back.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="jupka" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Jupka_forward">
+    <Position X="21" Y="16" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAABAAAAAIAAAAAAIAAIAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Milling\Jupka_forward.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="jupka" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Jupka_left">
+    <Position X="21" Y="22" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAABAAAAAIAAAAAAIAAIAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Milling\Jupka_left.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="jupka" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="JupkaDown">
+    <Position X="14" Y="19" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAABAAAAAAAAAAAAIAAIAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Milling\JupkaDown.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="jupka" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="JupkaDown_dop">
+    <Position X="21" Y="19" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAABAAAAAAAAAAAAIAAIAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Milling\JupkaDown_dop.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="jupka" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="JupkaRight">
+    <Position X="17" Y="14" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAABAAAAAIAAAAAAIAAIAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Milling\JupkaRight.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="jupka" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="keyBoardManager">
+    <Position X="42" Y="3" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAQBAAAIAAAAEAIAAAAAAAAAAAAAAAAAAAAAAAAAEAA=</HashCode>
+      <FileName>Assets\Scripts\Milling\keyBoardManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LockDoorButton">
+    <Position X="31" Y="9.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAQBAAAAAAAAEAAAAAAAAAAEAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Milling\LockDoorButton.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="manager" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="MillingManager">
+    <Position X="30.75" Y="12.75" Width="3" />
+    <TypeIdentifier>
+      <HashCode>AEQAAAAxOkCAAwAACABCBAYAAwIAIQAAAAACIACABIA=</HashCode>
+      <FileName>Assets\Scripts\Milling\MillingManager.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="movingPart" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="MillingTool">
+    <Position X="47" Y="6.75" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>ACQAAAAAAgAAABAAAEAAAAAAAAAAAIAAAAAAIEAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Milling\MillingTool.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MillingWork">
+    <Position X="50" Y="6.5" Width="3" />
+    <TypeIdentifier>
+      <HashCode>AAQEAAEAAQIAAEEACAAQEACAACAAAQAAAAACAABAEAA=</HashCode>
+      <FileName>Assets\Scripts\Milling\MillingWork.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SheetSwitch">
+    <Position X="18.5" Y="0.75" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAgAAAhEAAEAAAAABIAAAAIAAAAAAAoAIAEA=</HashCode>
+      <FileName>Assets\Scripts\Milling\SheetSwitch.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="handR" />
+      <Field Name="handL" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="SliderUp">
+    <Position X="14.5" Y="9.75" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAQAAgAAAhEAAEAAAAAAAAAAAIAAAAAEAgAIAAA=</HashCode>
+      <FileName>Assets\Scripts\Milling\SliderUp.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="handR" />
+      <Field Name="handL" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="SwitchPos">
+    <Position X="34.75" Y="11" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AgADQAHAAmCAAQBCCwAAcAkAAAIgAJACAPIgACAAAQA=</HashCode>
+      <FileName>Assets\Scripts\Milling\SwitchPos.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Tool">
+    <Position X="44.25" Y="0.75" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Milling\Tool.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WaterController">
+    <Position X="44.75" Y="7" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAQBAAAEAAAAEAAAAAAAAAAAAAAAAAAAIAAAIAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Milling\WaterController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HandController">
+    <Position X="18.5" Y="5.75" Width="3" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAEgAggAAgAAAABIAAAAAACAAgRAAABBAAAGA=</HashCode>
+      <FileName>Assets\Scripts\Other\HandController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MeshStudy">
+    <Position X="34.75" Y="23.75" Width="4.5" />
+    <TypeIdentifier>
+      <HashCode>hgQABAQQCzCABAIAAAgAEYCIwAA4AAAAKACAAABRCEA=</HashCode>
+      <FileName>Assets\MeshDeform\Scripts\MeshStudy.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Valve.VR.InteractionSystem.LinearMapping">
+    <Position X="28" Y="5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="Training">
+    <Position X="35" Y="5.25" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAQAAACAAAACAAAAAIAAAAAAAAAgAAAAAAAAAQAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Other\Training\Training.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

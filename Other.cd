@@ -1,0 +1,157 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="FullSignature">
+  <Class Name="ErrorChecker">
+    <Position X="17" Y="1.75" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAAAAAAAAAAAAAAAAAAIAQAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Other\ErrorChecker.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="errorManager" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="ErrorManager">
+    <Position X="20.5" Y="0.75" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AQAABAAAAAAAAAIgAAAAgAACAABAAAAAAAAAAADAAEA=</HashCode>
+      <FileName>Assets\Scripts\Other\ErrorManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Laser">
+    <Position X="1" Y="13.75" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>gASgOUmAACAAAAQgYBAkAAAAACgAAAIAECAABQAAAEQ=</HashCode>
+      <FileName>Assets\Scripts\Other\Laser.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="sceneManager" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="MekrometrTrigger">
+    <Position X="0.75" Y="9.75" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAABAAAAAIAAAAAAAAAIAAAAAAAABAAAA=</HashCode>
+      <FileName>Assets\Scripts\Other\MekrometrTrigger.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="micrometr" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Move">
+    <Position X="12" Y="0.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAggAAAAEAAAAAAAAAAAAAAQAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Other\Move.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MoveController">
+    <Position X="12.5" Y="4" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAACAAAAAAAAAAAAAAAAEAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Other\MoveController.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="move" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="SaveScrin">
+    <Position X="17" Y="14.5" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAQABIAAAgAAABAAAEAAAACAAAgAAoABAQBAAAAACAI=</HashCode>
+      <FileName>Assets\Scripts\Other\SaveScrin.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="latheDetail" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="SceneManage">
+    <Position X="4.5" Y="15.5" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AwQCAAAAAAAACAAAAAAAAEAEAAAAAAAAAgQEAAAAAEA=</HashCode>
+      <FileName>Assets\Scripts\Other\SceneManage.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SliderControllerTrigger">
+    <Position X="20.75" Y="7.5" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAQAAgAAAhAAAEAAAAAAAAAAAIAAAAAEAgAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Other\SliderControllerTrigger.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="handR" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="CylindrController">
+    <Position X="20.5" Y="14" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>ACaSAgIAUAAggAAAAFAAQAIAEAMEACASCAAEAAAAAEE=</HashCode>
+      <FileName>Assets\Scripts\Tokar\CylindrController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DefenceTraining">
+    <Position X="7.75" Y="4" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAwAAAAAAAAAAAAQAAAAAAAAAAAAABAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Other\Training\DefenceTraining.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="training" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Training">
+    <Position X="4.75" Y="4.25" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAQAAACAAAACAAAAAIAAAAAAAAAgAAAAAAAAAQAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Other\Training\Training.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TriggerHand">
+    <Position X="0.5" Y="3.75" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAAAAAIAAAAAAAAAAABAAQAAAIAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Other\Training\TriggerHand.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="training" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="TriggerHandTraining">
+    <Position X="4.5" Y="1" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAAAAAAAAAAAAAAACABAAQAAAIAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Other\Training\TriggerHandTraining.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="training" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="HandController">
+    <Position X="16.75" Y="7" Width="3" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAEgAggAAgAAAABIAAAAAACAAgRAAABBAAAGA=</HashCode>
+      <FileName>Assets\Scripts\Other\HandController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Micrometr">
+    <Position X="4.5" Y="9.25" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>EAAAAAAACwAAAAAAAAAAKAAAAAAAAAAAEAAABAAAIAA=</HashCode>
+      <FileName>Assets\Scripts\Other\Micrometr.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CubeSphere" Collapsed="true">
+    <Position X="14.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EBAAAAAAGAAAABAQAAAAAAAAAAARAAAAAgAAAEGAAEA=</HashCode>
+      <FileName>Assets\CubeSphere.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ControllerHelp">
+    <Position X="11.5" Y="6.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAAAgAAAAAAAAAAAgCBAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Milling\ControllerHelp.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

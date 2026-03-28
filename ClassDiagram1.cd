@@ -1,0 +1,517 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="FullSignature">
+  <Class Name="BindMilling">
+    <Position X="71" Y="5.75" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAgAAAhEAAEAAAAIAAAAAAIAAAAAAEgAJAAA=</HashCode>
+      <FileName>Assets\Scripts\Milling\BindMilling.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="handR" />
+      <Field Name="handL" />
+      <Field Name="generation" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="CamsCubeController">
+    <Position X="98.5" Y="0.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>ACAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Milling\CamsCubeController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Controller">
+    <Position X="87.5" Y="3" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAUAIABwCCAAAABEALAAAAAAEAEAAQAIQAAEAAAAAkA=</HashCode>
+      <FileName>Assets\Scripts\Milling\Controller.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="circleYlin" />
+      <Field Name="circleXlin" />
+      <Field Name="circleZlin" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="ControllerCube">
+    <Position X="87.75" Y="24.5" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>ACYBAAAAQABgAABBAQQAQIIAAAMACCgCCIAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Milling\ControllerCube.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="meshCube" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="ControllerHelp">
+    <Position X="94.25" Y="4.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAAAgAAAAAAAAAAAgCBAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Milling\ControllerHelp.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="training" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="ControllerSpeed">
+    <Position X="98.5" Y="5.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAgAAAAAAAAACAAAAAAAAAAAAAAAAAAAABAA=</HashCode>
+      <FileName>Assets\Scripts\Milling\ControllerSpeed.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ControllerTakerMilling">
+    <Position X="87.75" Y="20.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEBAAAAQ=</HashCode>
+      <FileName>Assets\Scripts\Milling\ControllerTakerMilling.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="milling" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="ControllerToolMilling">
+    <Position X="78.75" Y="4.25" Width="3.25" />
+    <TypeIdentifier>
+      <HashCode>IBQIBBIAAgAAgpAAAAAAQACYAAAACYAAAAAAAgAIAAA=</HashCode>
+      <FileName>Assets\Scripts\Milling\ControllerToolMilling.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="handR" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="CubeDestroyer">
+    <Position X="103.75" Y="0.5" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAACAAAAAAAAAAAAIAAAAAAIAAQAAAIAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Milling\CubeDestroyer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CubeOptimize">
+    <Position X="106.75" Y="0.5" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAUBAAAARAAAAABAAAAAAAAAAAAAAAAAQAAAAAADAAA=</HashCode>
+      <FileName>Assets\Scripts\Milling\CubeOptimize.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CylDestr">
+    <Position X="100.75" Y="5" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Milling\CylDestr.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EffectTool">
+    <Position X="100.75" Y="2.25" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>CAAAAAAAAgAAABAAAAQAAAAAAAAAAAAEAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Milling\EffectTool.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Generation">
+    <Position X="67.5" Y="4.25" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>ACYBAAAAQABgAABBAAQAQAMgEAMASCgACIAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Milling\Generation.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GeneratorCube">
+    <Position X="104" Y="3.25" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAACAAAAAAAAAAAAAgAAAAgAAAAABgAQAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Milling\GeneratorCube.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HelpCircle">
+    <Position X="106.5" Y="4" Width="3" />
+    <TypeIdentifier>
+      <HashCode>AAAEAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAABAAAA=</HashCode>
+      <FileName>Assets\Scripts\Milling\HelpCircle.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Jupka">
+    <Position X="74.25" Y="17" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AQQkAAACSgIgAIAEACAAAAAIBAAAAAgACAGAAAAEAAI=</HashCode>
+      <FileName>Assets\Scripts\Milling\Jupka.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Jupka_back">
+    <Position X="70.5" Y="21.75" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAABAAAAAIAAAAAAIAAIAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Milling\Jupka_back.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="jupka" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Jupka_forward">
+    <Position X="77.5" Y="15.75" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAABAAAAAIAAAAAAIAAIAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Milling\Jupka_forward.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="jupka" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Jupka_left">
+    <Position X="77.5" Y="21.75" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAABAAAAAIAAAAAAIAAIAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Milling\Jupka_left.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="jupka" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="JupkaDown">
+    <Position X="70.5" Y="18.75" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAABAAAAAAAAAAAAIAAIAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Milling\JupkaDown.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="jupka" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="JupkaDown_dop">
+    <Position X="77.5" Y="18.75" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAABAAAAAAAAAAAAIAAIAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Milling\JupkaDown_dop.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="jupka" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="JupkaRight">
+    <Position X="73.5" Y="13.75" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAABAAAAAIAAAAAAIAAIAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Milling\JupkaRight.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="jupka" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="keyBoardManager">
+    <Position X="98.5" Y="2.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAQBAAAIAAAAEAIAAAAAAAAAAAAAAAAAAAAAAAAAEAA=</HashCode>
+      <FileName>Assets\Scripts\Milling\keyBoardManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LockDoorButton">
+    <Position X="87.5" Y="9.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAQBAAAAAAAAEAAAAAAAAAAEAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Milling\LockDoorButton.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="manager" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="MillingManager">
+    <Position X="87.25" Y="12.5" Width="3" />
+    <TypeIdentifier>
+      <HashCode>AEQAAAAxOkCAAwAACABCBAYAAwIAIQAAAAACIACABIA=</HashCode>
+      <FileName>Assets\Scripts\Milling\MillingManager.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="movingPart" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="MillingTool">
+    <Position X="103.5" Y="6.5" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>ACQAAAAAAgAAABAAAEAAAAAAAAAAAIAAAAAAIEAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Milling\MillingTool.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MillingWork">
+    <Position X="106.5" Y="6.25" Width="3" />
+    <TypeIdentifier>
+      <HashCode>AAQEAAEAAQIAAEEACAAQEACAACAAAQAAAAACAABAEAA=</HashCode>
+      <FileName>Assets\Scripts\Milling\MillingWork.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SheetSwitch">
+    <Position X="75" Y="0.5" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAgAAAhEAAEAAAAABIAAAAIAAAAAAAoAIAEA=</HashCode>
+      <FileName>Assets\Scripts\Milling\SheetSwitch.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="handR" />
+      <Field Name="handL" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="SliderUp">
+    <Position X="71" Y="9.5" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAQAAgAAAhEAAEAAAAAAAAAAAIAAAAAEAgAIAAA=</HashCode>
+      <FileName>Assets\Scripts\Milling\SliderUp.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="handR" />
+      <Field Name="handL" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="SwitchPos">
+    <Position X="91.25" Y="10.75" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AgADQAHAAmCAAQBCCwAAcAkAAAIgAJACAPIgACAAAQA=</HashCode>
+      <FileName>Assets\Scripts\Milling\SwitchPos.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Tool">
+    <Position X="100.75" Y="0.5" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Milling\Tool.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WaterController">
+    <Position X="101.25" Y="6.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAQBAAAEAAAAEAAAAAAAAAAAAAAAAAAAIAAAIAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Milling\WaterController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HandController">
+    <Position X="75" Y="5.5" Width="3" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAEgAggAAgAAAABIAAAAAACAAgRAAABBAAAGA=</HashCode>
+      <FileName>Assets\Scripts\Other\HandController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MeshStudy">
+    <Position X="91.25" Y="23.5" Width="4.5" />
+    <TypeIdentifier>
+      <HashCode>hgQABAQQCzCABAIAAAgAEYCIwAA4AAAAKACAAABRCEA=</HashCode>
+      <FileName>Assets\MeshDeform\Scripts\MeshStudy.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Valve.VR.InteractionSystem.LinearMapping">
+    <Position X="84.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="Training">
+    <Position X="91.5" Y="5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAQAAACAAAACAAAAAIAAAAAAAAAgAAAAAAAAAQAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Other\Training\Training.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BackBabka" Collapsed="true">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAQQIAAAAMAAAAAAAAAECAAKAAEAAQgAYAAAAABAYAI=</HashCode>
+      <FileName>Assets\Scripts\Tokar\BackBabka.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BackForwardCamScreenshot" Collapsed="true">
+    <Position X="2.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAgAAAAAAAEAAAAAAAAAAAAAAAAAAAAABAAA=</HashCode>
+      <FileName>Assets\Scripts\Tokar\BackForwardCamScreenshot.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Bind" Collapsed="true">
+    <Position X="4" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAYARAAAArgAQhEiCEBiZAKAAACFAKACCBOIAsIJACA=</HashCode>
+      <FileName>Assets\Scripts\Tokar\Bind.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ButtonCoordController" Collapsed="true">
+    <Position X="5.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAKAAAAAAAAAAAAAAAAIAAAAAAAAIEAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Tokar\ButtonCoordController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CamSizeController" Collapsed="true">
+    <Position X="7.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAABAAAAAAAAAAAABAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Tokar\CamSizeController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ControllerDisplaySpeed" Collapsed="true">
+    <Position X="9.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAEAAAAAAABAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Tokar\ControllerDisplaySpeed.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ControllerLathe" Collapsed="true">
+    <Position X="0.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQVCAEAAwIQAkEEGEAQMCCAICAACwAAAAACAIBgEBA=</HashCode>
+      <FileName>Assets\Scripts\Tokar\ControllerLathe.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ControllerRotateCutter" Collapsed="true">
+    <Position X="2.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAQAAAAAAAAAAAAAAAAACAAAAAAAAQAIQAAAAAAAIAA=</HashCode>
+      <FileName>Assets\Scripts\Tokar\ControllerRotateCutter.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ControllerSupport" Collapsed="true">
+    <Position X="4" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EgQCaQCgQmAAAgAAg2QEPDgAAAEgAQAKQPAoAALEIQA=</HashCode>
+      <FileName>Assets\Scripts\Tokar\ControllerSupport.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ControllerSupportMove" Collapsed="true">
+    <Position X="5.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAgAAghAAAAAAAAAAAAAAAIAAAAAIAAAAAAE=</HashCode>
+      <FileName>Assets\Scripts\Tokar\ControllerSupportMove.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ControllerTakerLathe" Collapsed="true">
+    <Position X="7.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Tokar\ControllerTakerLathe.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ControllerVnutrWork" Collapsed="true">
+    <Position X="9.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAIAAEiAAAEAAEAAAAAgAAAABABAAMAAIAAYAAAQ=</HashCode>
+      <FileName>Assets\Scripts\Tokar\ControllerVnutrWork.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CylCamsController" Collapsed="true">
+    <Position X="0.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Tokar\CylCamsController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CylindrController" Collapsed="true">
+    <Position X="2.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACaSAgIAUAAggAAAAFAAQAIAEAMEACASCAAEAAAAAEE=</HashCode>
+      <FileName>Assets\Scripts\Tokar\CylindrController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CylPartController" Collapsed="true">
+    <Position X="4" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAECAAABAAAAAAAAAAAIAAAIAAAAAAAAQAAAA=</HashCode>
+      <FileName>Assets\Scripts\Tokar\CylPartController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DrealWork" Collapsed="true">
+    <Position X="5.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQgAAAAAqAAAAAAAAAMAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Tokar\DrealWork.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GenNewCyl" Collapsed="true">
+    <Position X="7.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAAAAAAAACAAAAAAAAAAAAAAgAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Tokar\GenNewCyl.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="InactiveCutters" Collapsed="true">
+    <Position X="9.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAYAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Tokar\InactiveCutters.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LeftTrigger">
+    <Position X="0.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAgAAAAAAAAAAAAAAAAIAAQAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Tokar\LeftTrigger.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MetalicSound">
+    <Position X="2.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAABAAAAAAAAIAAQAAAAAAAEAA=</HashCode>
+      <FileName>Assets\Scripts\Tokar\MetalicSound.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NewTool">
+    <Position X="13.5" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Tokar\NewTool.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SliderController">
+    <Position X="5.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAQAAgAAAhEAAEAAAAAAAAAAAIAAAAAEAgAIAAA=</HashCode>
+      <FileName>Assets\Scripts\Tokar\SliderController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TakeCutter">
+    <Position X="7.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAiAAAkEEAGAAAAAAAAAAEAAAAAAAAgAIAAA=</HashCode>
+      <FileName>Assets\Scripts\Tokar\TakeCutter.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Taker">
+    <Position X="9.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAiAAAhMEAEAAUAIAAAAAAIAAAAAJEhAIAA0=</HashCode>
+      <FileName>Assets\Scripts\Tokar\Taker.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TokarTextSpeedColor">
+    <Position X="0.5" Y="8.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Tokar\TokarTextSpeedColor.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ToolLathe">
+    <Position X="2.25" Y="8.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAABAAAAAABAAAAAAIAAAEAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Tokar\ToolLathe.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ToolMesh">
+    <Position X="4" Y="8.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAAAAASACzCABAAAAAgAEYAIwAAYAAAAKACAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Tokar\ToolMesh.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ToolSoundLathe">
+    <Position X="5.75" Y="8.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAACAAAAIAgAgABQAAAAAgAIAAQAAIAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Tokar\ToolSoundLathe.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="VnutrRez">
+    <Position X="7.5" Y="8.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAIACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Tokar\VnutrRez.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="VnutrTool">
+    <Position X="9.25" Y="8.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAABAAAAAAAAAAAAAAAIAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Tokar\VnutrTool.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

@@ -1,0 +1,179 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="FullSignature">
+  <Class Name="BackForwardCamScreenshot">
+    <Position X="34.25" Y="19" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAgAAAAAAAEAAAAAAAAAAAAAAAAAAAAABAAA=</HashCode>
+      <FileName>Assets\Scripts\Tokar\BackForwardCamScreenshot.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="cyl" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="ButtonCoordController">
+    <Position X="18.5" Y="3" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAKAAAAAAAAAAAAAAAAIAAAAAAAAIEAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Tokar\ButtonCoordController.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="support" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="ControllerDisplaySpeed">
+    <Position X="10" Y="8" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAEAAAAAAABAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Tokar\ControllerDisplaySpeed.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="lathe" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="ControllerLathe">
+    <Position X="13.25" Y="5.25" Width="3" />
+    <TypeIdentifier>
+      <HashCode>AAQVCAEAAwIQAkEEGEAQMCCAICAACwAAAAACAIBgEBA=</HashCode>
+      <FileName>Assets\Scripts\Tokar\ControllerLathe.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ControllerSupport">
+    <Position X="23.75" Y="2" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>EgQCaQCgQmAAAgAAg2QEPDgAAAEgAQAKQPAoAALEIQA=</HashCode>
+      <FileName>Assets\Scripts\Tokar\ControllerSupport.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ControllerSupportMove">
+    <Position X="13.5" Y="2" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAgAAghAAAAAAAAAAAAAAAIAAAAAIAAAAAAE=</HashCode>
+      <FileName>Assets\Scripts\Tokar\ControllerSupportMove.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="support" />
+      <Field Name="controllerLathe" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="CylCamsController">
+    <Position X="34.5" Y="16.25" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Tokar\CylCamsController.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="latheDetail" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="CylindrController">
+    <Position X="30.5" Y="14" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>ACaSAgIAUAAggAAAAFAAQAIAEAMEACASCAAEAAAAAEE=</HashCode>
+      <FileName>Assets\Scripts\Tokar\CylindrController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CylPartController">
+    <Position X="20.5" Y="11.25" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAECAAABAAAAAAAAAAAAAAAIAAAAAAAAQAAAI=</HashCode>
+      <FileName>Assets\Scripts\Tokar\CylPartController.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="taker" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="LeftTrigger">
+    <Position X="9.25" Y="14" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAgAAAAAAAAAAAAAAAAIAAQAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Tokar\LeftTrigger.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="tool" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="MetalicSound">
+    <Position X="9.25" Y="5.25" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAABAAAAAAAAIAAQAAAAAAAEAA=</HashCode>
+      <FileName>Assets\Scripts\Tokar\MetalicSound.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="lathe" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="TakeCutter">
+    <Position X="20.75" Y="6.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAiAAAkEEAGAAAAAAAAAAEAAAAAAAAgAIAAA=</HashCode>
+      <FileName>Assets\Scripts\Tokar\TakeCutter.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Taker">
+    <Position X="17.25" Y="10.75" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAiAAAhMEAEAAUAIAAAAAAIAAAAAJEhAIAA0=</HashCode>
+      <FileName>Assets\Scripts\Tokar\Taker.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="controllerLathe" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="ToolLathe">
+    <Position X="9.25" Y="10.75" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAABAAAAAABAAAAAAIAAAEAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Tokar\ToolLathe.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="lathe" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="ToolSoundLathe">
+    <Position X="17.25" Y="7.5" Width="2.75" />
+    <AssociationLine Name="support" Type="ControllerSupport" ManuallyRouted="true" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="18.625" Y="7.5" />
+        <Point X="18.625" Y="5.875" />
+        <Point X="23.75" Y="5.875" />
+      </Path>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAACAAAAIAgAgABQAAAAAgAIAAQAAIAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Tokar\ToolSoundLathe.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="support" />
+      <Field Name="lathe" />
+      <Field Name="cutter" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="InsideProcessing">
+    <Position X="31" Y="9.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAIACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Tokar\InsideProcessing.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="work" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="ControllerInsideProcessing">
+    <Position X="34" Y="8.25" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAQAAIAAEiAAAEAAEAAAAAgAAAABABAAMAAIAAYAAAQ=</HashCode>
+      <FileName>Assets\Scripts\Tokar\ControllerInsideProcessing.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="InsideTool">
+    <Position X="30.75" Y="6.75" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAABAAAAAAIAAAAAAAAIAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Tokar\InsideTool.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="insideProccessing" />
+    </ShowAsAssociation>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
